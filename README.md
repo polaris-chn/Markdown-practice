@@ -178,10 +178,40 @@ markdown语言是一种轻量级标记语言；它允许人们使用易读易写
 
 
 
-
-
-
 ## <span id="超链接">6. 超链接</span>
+
+超链接是在本页面内的外部链接，通过点击这些超链接可以跳转到相应页面中去，其语法是：
+
+```
+[超链接名](超链接地址 "超链接title")
+title可加可不加
+```
+
+例如：
+
+```
+[我的Github主页](https://github.com/polaris-chn)
+```
+
+其显示结果就是
+
+[我的Github主页](https://github.com/polaris-chn)
+
+这种超链接在点击之后会在原窗口打开新的超链接窗口，Markdown本身语法不支持链接在新页面打开，有的平台，例如简书，可以使用html语言的a标签来代替，如下所示
+
+```
+<a href="https://github.com/polaris-chn" target="_blank">我的Github主页</a>
+```
+
+其显示结果就是
+
+<a href="https://github.com/polaris-chn" target="_blank">我的Github主页</a>
+
+但是在Github平台好像还是不行，所以可以采用另一种方式，在点击超链接的时候，按住```ctrl```键，就可以在新页面打开超链接
+
+
+
+
 
 ## <span id="列表">7. 列表</span>
 
